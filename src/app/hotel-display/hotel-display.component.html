@@ -1,0 +1,23 @@
+
+<div   >
+  <a routerLink="/hotel-details/{{hotel.id}}"  fxLayout="row"  fxLayoutGap="0.7%" fxLayoutAlign="center">
+    <mat-card class="card-picture" fxLayout="column">
+      <mat-card-title>
+        <span fxFlex="80%">{{hotel.name}}</span>
+        <span fxFlex="20%"> {{hotel.totalCost | currency: 'GBP' : 'symbol':'1.0-0'}} </span>
+        <mat-icon fxFlex="10%">favorite</mat-icon>
+        <mat-icon fxFlex="10%">delete</mat-icon>
+      </mat-card-title>
+      <img mat-card-image [src]="hotel.image" alt="description">
+      <mat-card-content>
+
+        <div class="hotel-size"> {{hotel.size}} </div>
+      </mat-card-content>
+
+      <mat-card-actions class="child">
+        <button mat-raised-button class="item" type="button" (click)="onHotelSelected(hotel)">Select me</button>
+        <button mat-raised-button disabled class="item" type="'button"> Cancel order</button>
+      </mat-card-actions>
+    </mat-card>
+  </a>
+</div>

@@ -1,0 +1,8 @@
+[
+
+  {"id": 1,"name":"Copthorme" , "description" : "Family Hotel", "crustType": "description1" , "size": "couple" , "totalCost": 110 , "image": "https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+  {"id": 2,"name":"El greco" , "description" : "Family Hotel", "crustType": "description1" , "size": "family" , "totalCost": 120 , "image": "https://images.pexels.com/photos/2417842/pexels-photo-2417842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+  {"id": 3,"name":"Caravel" , "description" : "Young  Hotel", "crustType": "description1" , "size": "single" , "totalCost": 150 , "image": "https://images.pexels.com/photos/2927603/pexels-photo-2927603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" },
+  {"id": 4,"name":"Imperial Hotel" , "description" : "Teen hotel", "crustType": "description1" , "size": "big-family" , "totalCost": 50 , "image": "https://images.pexels.com/photos/2417862/pexels-photo-2417862.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" }
+
+]

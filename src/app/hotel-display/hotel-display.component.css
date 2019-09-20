@@ -1,0 +1,30 @@
+.example-card {
+  max-width: 400px;
+  margin-bottom: 18%;
+
+
+
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 18%;
+}
+.img {
+  width: 100%;
+  margin-bottom: 18%;
+}
+.container {
+  min-height: 100%;
+  width: 100%;
+}
+.card-picture {
+  width: 23%;
+  margin-bottom: 2%;
+
+}
+
+.mat-button {
+  position: absolute;
+  left: 1400px;
+}

@@ -1,0 +1,11 @@
+<!--fxLayout="row" -->
+<h1 style="text-align: center"  id="title"> Hotel Plymouth rooms </h1>
+<h5 style="text-align: center" id="subtitle"> Another choice </h5>
+<div >
+  <div *ngFor="let hotel of myHotels" class="hotel-list"  >
+      <app-hotel-display [hotel]="hotel" (hotelSelected)="selectHotel($event)" fxLayout="column"> </app-hotel-display>
+
+  </div>
+</div>
+
+<!-- [hotel]="hotel" (hotelSelected)="selectHotel($event)"-->
